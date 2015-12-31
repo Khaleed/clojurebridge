@@ -7,6 +7,6 @@
 (def total-height-in-cm (+ height-from-inches-to-centimetres height-person1 height-person2))
 (def avg-height-in-cm (/ total-height-in-cm 3))
 ; convert back to inches
-(def convert-height-back-to-inches (/ avg-height-in-cm 2.54))
+(def convert-height-back-to-inches (quot avg-height-in-cm 2.54))
 ; convert back to feet
-(def convert-height-back-to-feet (/ convert-back-to-feet 12))
+(def convert-height-back-to-feet (quot convert-back-to-feet 12))
