@@ -1,3 +1,5 @@
-(def highest-temp-for-next-week [6, 5, 8, 9, 8, 11, 9])
+; vect of temp in London sun - sat
+(def weather-vect [9 10 8 8 11 10])
+; get temp for tue
+(nth weather-vect 2)
 
-(def highest-temp-for-next-tue (nth highest-temp-for-next-week 5))
