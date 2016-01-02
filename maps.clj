@@ -6,3 +6,5 @@
 
 (assoc info-about-me :home-town "London")
 
+(dissoc info-about-me :middle-name "Omar")
+
