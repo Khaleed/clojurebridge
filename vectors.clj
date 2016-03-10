@@ -3,3 +3,4 @@
 ; get temp for tue
 (nth weather-vect 2)
 
+;go to walk.clj file and do the exercises

@@ -1,10 +1,4 @@
 ; model yourself
-
-(def info-about-me {:first-name "Khalid" :middle-name "Omar", :last-name "Ali"
-	:interests {:hobbies ["Coding", "Travelling", "Martial Arts", "Restaurant-Crawling"], 
-	:work ["Business Analyst" ,"Economic Analyst", "Financial Analyst"]},})
-
-(assoc info-about-me :home-town "London")
-
-(dissoc info-about-me :middle-name "Omar")
-
+; learning about maps
+(def me {:first "Khalid" :middle "Omar" :last "Ali"})
+(merge me {:hometown "London"} {:sports "martial arts"})
