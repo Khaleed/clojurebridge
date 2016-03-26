@@ -23,3 +23,8 @@
 (y-within-frame-cond 200)
 (y-within-frame-cond -200)
 (y-within-frame-cond 0)
+(defn leap-year?
+  [year]
+  (and (zero? (mod year 4))
+       (or (zero? (mod year 400))
+           (not (zero? (mod year 100))))))
