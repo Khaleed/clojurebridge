@@ -6,3 +6,4 @@
 (defn join-with-space
   [s1 s2]
   (str s1 " " s2))
+(join-with-space "Hello" "World")
